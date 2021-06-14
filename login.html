@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Login</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="1090306380211-iec1v4s1njq6hie6gf9ubtjjee03ogsp.apps.googleusercontent.com">
+<script src="script.js">
+</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">      
+        <style>
+            @import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+ body {
+        margin:0;
+     padding:0;
+     font-family: sans-serif;
+     background:url(d.jpg) no-repeat;
+     background-size: cover;
+            }
+            .loginbox
+            {
+                width:280px;
+            margin:auto;
+                padding:35px;
+                border-radius: 8px;
+                background-color:#1a0d00
+
+;
+                position:absolute;
+                top:20%;
+                left:35%;
+                color:white;
+            }
+            .loginbox h1{
+                float: left;
+                font-size:40px;
+                border-bottom: 6px solid #1FB2C9;
+                margin-bottom: 50px;
+                padding:13px;
+            }
+            .text{
+                width:100%;
+                overflow:hidden;
+                font-size:20px;
+                padding:8px;
+                margin:8px;
+                border-bottom: 1px solid #1FB2C9;
+                
+            }
+            .text i{
+                width:26px;
+                float:left;
+                text-align: center;
+            }
+            .text input{
+                border:none;
+                outline:none;
+                background:none;
+                color:white;
+                font-size:18px;
+                width:80%;
+                float:left;
+                margin: 0 10px;
+                
+            }
+            #login
+            {
+                width:100%;
+                background-color:#1FB2C9;
+                border:2px solid #1FB2C9;
+                border-radius:2px;
+                color:white;
+                padding:5px;
+                margin:8px;
+            }
+           
+            .g-signin2{
+        margin-left:5%
+            
+        }
+.data{
+    display:none;
+}
+            
+        </style>
+    </head>
+<body>
+
+
+<form>
+    <div class="loginbox">
+    <h1>Login</h1>
+<div class="text">
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+<input id="e1" type="email" placeholder="example@gmail.com" value="">
+</div>
+    
+<div class="text">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+<input id="pass" type="password" placeholder="password" value"">
+        </div>
+        
+        <input id="login" type="button" value="Log in" onclick="logform();">
+        <br>
+        <br>
+        <hr>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<div class = "data">
+<a href ="welcome.html"></a>
+
+
+</div>
+        <br>
+<a style="color:white;margin:8px" href="signup.html">Create a new account</a>
+    </div>
+
+</form>
+          
+<script type="text/javascript" src="app.js"></script>
+    
+<script type="text/javascript" src="index.js"></script>
+    
+    </body>
+</html>

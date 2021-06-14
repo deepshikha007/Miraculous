@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="1090306380211-iec1v4s1njq6hie6gf9ubtjjee03ogsp.apps.googleusercontent.com">
+<script src="script.js">
+</script>
+<style>
+
+</style>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sign Up</title>
+    <style>
+        body
+        {
+            background:url(d.jpg) no-repeat;
+            background-size:cover;
+            font-family:sans-serif;
+        }
+        .signup{
+            width: 420px;
+            border-radius:5px;
+            background:#1a0d00;
+            padding:20px;
+            margin:auto;
+          font-size:16px;
+            color:#fff;
+            font-family: Verdana;
+            margin-top:100px;
+            opacity:0.9;
+        }
+        .signup h1{
+            text-align: center;
+            margin:0;
+            padding:0;
+        }
+        .signup input
+        {
+            padding:12px 20px;
+            margin:8px 0;
+            display: inline-block;
+            border:1px solid #ccc;
+            border-radius:4px;
+            box-sizing:border-box;
+            font-size:18px;
+            background:white;
+            color:black;
+            opacity: 0.6;
+        }
+        #sub,#res,#can{
+            width:48.5%;
+            border:none;
+            cursor:pointer;
+            color:black;
+            
+            }
+        #first{
+            width:49%;
+            border:none;
+        }
+        #last{
+            width:49.5%;
+            border:none;
+        }
+        #e2
+        {
+            width:100%;
+            border:none;
+        }
+        #pass1{
+            width:49.5%;
+            border:none;
+        }
+        #pass2{
+            width:49%;
+            border:none;
+        }
+        .g-signin2{
+        margin-left:35%
+            
+        }
+.data{
+    display:none;
+}
+        </style>
+    </head>
+    
+<body>
+    <div class="signup">
+        
+<h1>Sign Up Here</h1>
+        <hr>
+      <form>
+        
+<input id="first" type="text" placeholder="First Name">
+
+<input id="last" type="text" placeholder="Last Name">
+          
+<input id="e2" type="email" placeholder="Email id">
+          
+<input id="pass1" type="password" placeholder="Password">
+          
+<input id="pass2" type="password" placeholder="Confirm Password">
+          <br>
+          <label> <input type="radio" name="gender">Male</label>
+          <label> <input type="radio" name="gender">Female</label>
+          <label><input type="radio" name="gender">Other</label>
+          <br>
+          
+<input type="checkbox">I Accept Terms And Conditions
+          <br>
+<input id="sub" type="button" value="Submit" onclick="subform();">
+            
+<input id="res" type="reset" Value="Reset">
+       
+            
+<center>
+    <a href="login.html">  <input id="can" type="button" value="Cancel"></a>
+</center>
+<hr>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<div class = "data">
+<a href ="welcome.html"></a>
+
+
+</div>
+        
+      </form>
+    </div>
+    
+    <script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="index.js"></script>
+    
+    </body>
+</html>

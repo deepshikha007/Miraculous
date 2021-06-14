@@ -1,0 +1,33 @@
+ @import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+            
+body{
+    background-image: url(.././d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+li{
+    
+    font-size: 20px;
+    width: 93.5%;
+    background-color:#FF9F1C;
+    padding: 10px;
+    margin: 10px;
+}
+li a {
+    text-decoration: none;
+    color : black;
+}
+
+form{
+    float: right;
+    right: 4.5%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

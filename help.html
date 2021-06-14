@@ -1,0 +1,63 @@
+<html><head><title>Help</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        .main{
+            width:280px;
+            margin:auto;
+            background:#1a0d00;
+            margin-right:550px;
+            padding:30px;
+            margin-bottom: 400px;
+            border-radius: 5px;
+        }
+        #id3
+        {
+            background-color: #1FB2C9;
+            margin-left:90px;
+            border:none;
+            padding:5px;
+        }
+    
+    
+    
+    </style>
+    
+    <script>
+    function myfun()
+        {
+           var email=document.getElementById("id1").value;
+        var msg=document.getElementById("id2").value;
+         if(email=="")
+             {
+                 alert("enter your email id");
+                 
+             }
+        else if(msg=="")
+        {
+            alert("enter your query")
+        }
+            else
+            {
+            alert("Message sent successfully")
+        }
+        }
+        
+    </script>
+    <body style="background-image:url(d.jpg);background-repeat: no-repeat;background-size: cover">
+        <form style="margin-top: 250px;margin-left: 500px">
+        
+       <div class="main"> 
+       <label style="font-size: 30px;color:white">Enter Email <input id="id1" style="padding:10px"  type="email" placeholder="Email id"></label><br><br><br>
+        <label style="font-size: 30px;color:white">Enter query<textarea id="id2" placeholder="message"></textarea></label><br><br><br>
+            <button id="id3" onclick="myfun()">Submit</button>
+            </div>
+        
+        
+        
+        </form>
+    
+    
+    </body>
+    
+    
+    </head></html>
