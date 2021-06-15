@@ -8,16 +8,16 @@ The  welcome  page  includes  three  slides  which  include  Artists,  Video ,  
 ## Project Images
 
 ### 3. Home Page
-![Alt text](home.png?raw=true "Home")
+![Alt text](Images/home.png?raw=true "Home")
 
 ### 2. Login Page
-![Alt text](login.png?raw=true "Login")
+![Alt text](Images/login.png?raw=true "Login")
 
 ### 3. Signup Page
-![Alt text](signup.png?raw=true "signup")
+![Alt text](Images/signup.png?raw=true "signup")
 
 ### 4. Slides 
-![Alt text](welcome.png?raw=true "slide")
+![Alt text](Images/welcome.png?raw=true "slide")
 
 ### 5. Artist
-![Alt text](artist.png?raw=true "slide")
+![Alt text](Images/artist.png?raw=true "slide")
